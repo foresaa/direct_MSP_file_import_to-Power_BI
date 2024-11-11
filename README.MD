@@ -1,4 +1,4 @@
-![Andel Projects Limited](image.png)
+![Andel Projects Limited](perpop.png)
 
 # Importing Microsoft Project Data into Power BI Using Python
 
