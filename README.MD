@@ -1,6 +1,4 @@
-Certainly! Here are the instructions formatted into a Markdown file for you.
-
----
+![Andel Projects Limited](image.png)
 
 # Importing Microsoft Project Data into Power BI Using Python
 
