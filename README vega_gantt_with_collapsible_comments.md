@@ -15,7 +15,7 @@ The header section defines the overall structure and foundational aspects of the
 "width" : Specifies the total width of the visualization in pixels, which is critical for determining the available space for displaying elements like tasks and columns in the Gantt chart.
 "padding" : Defines the amount of padding around the visualization. This ensures that elements like axes and labels do not get clipped and there is some breathing room for visual elements.
 
-<details>
+<details open>
   <summary>Click to expand/collapse the code</summary>
 
 ```
@@ -25,6 +25,8 @@ The header section defines the overall structure and foundational aspects of the
 "autosize"   : "pad",
 "padding"    : {"left": 5, "right": 0, "top": 5, "bottom": 0},
 ```
+
+</details>
 
 ## Signals Section
 
@@ -37,7 +39,7 @@ Zoom and Pan : Signals enable zooming and panning functionality through mouse ev
 Task Control Signals : Signals may control the visibility or collapsibility of tasks, phases, or dependencies. These enable user-driven exploration by expanding or collapsing groups or highlighting dependencies.
 Dynamic Calculation Signals: These include computed values, such as "dayBandwidth" (pixels per day on the x-axis), and are used to adapt visual layouts based on data scales, user inputs, or other dynamic triggers.
 
-<details>
+<details open>
   <summary>Click to expand/collapse the code</summary>
 
 ```
@@ -287,6 +289,8 @@ Dynamic Calculation Signals: These include computed values, such as "dayBandwidt
 
 ```
 
+</details>
+
 ### Data Section
 
 This section defines the input data used to generate the visualization, including transformations applied to derive specific properties.
@@ -299,7 +303,7 @@ Formulas: Creating derived fields, such as task duration (calculated by subtract
 Lookups: Cross-referencing data sets for merging related information, like tasks with their phases.
 Units: Date-time values often need parsing to be interpreted as dates and used in computations. Many transformations rely on units of pixels for layout calculations or units of time (days, weeks) for temporal computations.
 
-<details>
+<details open>
   <summary>Click to expand/collapse the code</summary>
 
 ```
@@ -1609,6 +1613,8 @@ Units: Date-time values often need parsing to be interpreted as dates and used i
 
 ```
 
+</details>
+
 ## Marks for Visual Representation
 
 Marks are the visual elements (e.g., rectangles, lines, symbols) that represent data in the Gantt chart.
@@ -1618,7 +1624,7 @@ Milestone Symbols: Milestones are typically represented as symbols (e.g., diamon
 Phase Outlines: Marks that visually group related tasks within a phase. These may be outlined rectangles or paths that represent the entire span of a phase.
 Dependency Arrows: Lines or paths connecting tasks to indicate dependencies, allowing users to visualize task relationships.
 
-<details>
+<details open>
   <summary>Click to expand/collapse the code</summary>
 
 ```
@@ -1742,7 +1748,7 @@ X-Axis (Time): Displays dates or periods along the horizontal axis, with tick ma
 Y-Axis (Tasks/Phases): Provides a label or guide for each task or phase, displayed vertically. Y-axis labels may be hidden or simplified depending on the chart's interactivity or layout constraints.
 Grid Lines: Optionally displayed for guidance, typically aligned with ticks to help interpret data positions relative to the axes. \*/
 
-<details>
+<details open>
   <summary>Click to expand/collapse the code</summary>
 
 ```
@@ -1892,6 +1898,8 @@ Grid Lines: Optionally displayed for guidance, typically aligned with ticks to h
 
 ```
 
+</details>
+
 ## Scales Section
 
 Scales map data values to visual properties like position, size, or color. In a Gantt chart, scales play a pivotal role in converting data (e.g., dates, task categories) to screen positions.
@@ -1936,16 +1944,17 @@ Color Scales : These map phases or statuses to colors, enhancing visual distinct
 ],
 
 ```
+</details>
 
 ## Configuration Section
 
 The configuration section defines global styles and settings for elements within the chart.
 
-View Settings : Controls properties like background color or border strokes for the overall visualization container.
-Font and Text Styles: Defines default font families, sizes, and text alignments for labels, tooltips, and other text elements.
-Custom Styles : Named styles that can be applied to groups of marks or specific elements for consistent appearance across the visualization.
+View   Settings       : Controls properties like background color or border strokes for the overall visualization container.
+Font   and Text Styles: Defines default font families, sizes, and text alignments for labels, tooltips, and other text elements.
+Custom Styles         : Named styles that can be applied to groups of marks or specific elements for consistent appearance across the visualization.
 
-<details>
+<details open>
   <summary>Click to expand/collapse the code</summary>
 
 ```
