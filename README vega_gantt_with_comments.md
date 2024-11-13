@@ -1596,6 +1596,7 @@ Units: Date-time values often need parsing to be interpreted as dates and used i
 }
 },
 ```
+
 ## Marks for Visual Representation
 
 Marks are the visual elements (e.g., rectangles, lines, symbols) that represent data in the Gantt chart.
@@ -1603,8 +1604,9 @@ Marks are the visual elements (e.g., rectangles, lines, symbols) that represent 
 Task Bars: Rectangles representing tasks, with properties like start/end positions determined by the x scale. The width of each bar corresponds to the task duration. Additional properties like fill color or stroke can reflect task status or dependencies.
 Milestone Symbols: Milestones are typically represented as symbols (e.g., diamonds) at specific points in the timeline. They may include hover tooltips for detailed information.
 Phase Outlines: Marks that visually group related tasks within a phase. These may be outlined rectangles or paths that represent the entire span of a phase.
-Dependency Arrows: Lines or paths connecting tasks to indicate dependencies, allowing users to visualize task relationships. \*/
+Dependency Arrows: Lines or paths connecting tasks to indicate dependencies, allowing users to visualize task relationships.
 
+```
           "marks": [
             {
               "name": "phaseFills",
@@ -1723,6 +1725,7 @@ X-Axis (Time): Displays dates or periods along the horizontal axis, with tick ma
 Y-Axis (Tasks/Phases): Provides a label or guide for each task or phase, displayed vertically. Y-axis labels may be hidden or simplified depending on the chart's interactivity or layout constraints.
 Grid Lines: Optionally displayed for guidance, typically aligned with ticks to help interpret data positions relative to the axes. \*/
 
+```
       "axes": [
         {
           "scale": "y",
@@ -1864,7 +1867,8 @@ Grid Lines: Optionally displayed for guidance, typically aligned with ticks to h
 "signal": "dayBandwidthRound >= minMonthBandwidth || dayBandwidthRound <= 0.35 ? 0 : 'month'"
 }
 }
-],```
+],
+```
 
 ## Scales Section
 
