@@ -1915,9 +1915,21 @@ Color Scales: These map phases or statuses to colors, enhancing visual distincti
 
 The configuration section defines global styles and settings for elements within the chart.
 
-View Settings: Controls properties like background color or border strokes for the overall visualization container.
+View Settings : Controls properties like background color or border strokes for the overall visualization container.
 Font and Text Styles: Defines default font families, sizes, and text alignments for labels, tooltips, and other text elements.
-Custom Styles: Named styles that can be applied to groups of marks or specific elements for consistent appearance across the visualization. \*/
+Custom Styles : Named styles that can be applied to groups of marks or specific elements for consistent appearance across the visualization.
+
+<details>
+  <summary>Click to expand/collapse the code</summary>
+
+```
+  // Your code here
+  function example() {
+      console.log("This is a collapsible code block!");
+  }
+
+```
+
 "config": {
 "view": {"stroke": "transparent"},
 "style": {"col": {"fontSize": 11}, "cell": {"strokeWidth": {"value": "0"}}},
@@ -1927,3 +1939,7 @@ Custom Styles: Named styles that can be applied to groups of marks or specific e
 "title": {"color": {"signal": "textColour"}}
 }
 }
+
+```
+
+```
