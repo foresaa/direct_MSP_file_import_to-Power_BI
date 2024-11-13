@@ -39,6 +39,7 @@ Dynamic Calculation Signals: These include computed values, such as "dayBandwidt
 
 <details>
   <summary>Click to expand/collapse the code</summary>
+
 ```
 
 "signals": [
@@ -286,7 +287,7 @@ Dynamic Calculation Signals: These include computed values, such as "dayBandwidt
 
 ```
 
-## Data Section
+### Data Section
 
 This section defines the input data used to generate the visualization, including transformations applied to derive specific properties.
 
@@ -297,8 +298,10 @@ Aggregations: Calculating summaries, such as minimum start date for a phase, tot
 Formulas: Creating derived fields, such as task duration (calculated by subtracting start from end date).
 Lookups: Cross-referencing data sets for merging related information, like tasks with their phases.
 Units: Date-time values often need parsing to be interpreted as dates and used in computations. Many transformations rely on units of pixels for layout calculations or units of time (days, weeks) for temporal computations.
+
 <details>
   <summary>Click to expand/collapse the code</summary>
+
 ```
 
     "data": [
@@ -1617,6 +1620,7 @@ Dependency Arrows: Lines or paths connecting tasks to indicate dependencies, all
 
 <details>
   <summary>Click to expand/collapse the code</summary>
+
 ```
 
           "marks": [
@@ -1740,6 +1744,7 @@ Grid Lines: Optionally displayed for guidance, typically aligned with ticks to h
 
 <details>
   <summary>Click to expand/collapse the code</summary>
+
 ```
 
       "axes": [
@@ -1891,12 +1896,13 @@ Grid Lines: Optionally displayed for guidance, typically aligned with ticks to h
 
 Scales map data values to visual properties like position, size, or color. In a Gantt chart, scales play a pivotal role in converting data (e.g., dates, task categories) to screen positions.
 
-X     Scale (Time): Maps the start and end dates of tasks to horizontal positions in the chart. It is typically a time scale and defines the domain (range of input dates) and the output range (pixels).
-Y     Scale (Band): Maps tasks or phases to vertical positions in a banded layout. This scale ensures that tasks are stacked in rows, with each task or phase occupying a specific vertical band.
-Color Scales      : These map phases or statuses to colors,                                                                           enhancing visual distinction and readability. Color mappings can vary between "light" and "dark" ranges for aesthetic differentiation.
+X Scale (Time): Maps the start and end dates of tasks to horizontal positions in the chart. It is typically a time scale and defines the domain (range of input dates) and the output range (pixels).
+Y Scale (Band): Maps tasks or phases to vertical positions in a banded layout. This scale ensures that tasks are stacked in rows, with each task or phase occupying a specific vertical band.
+Color Scales : These map phases or statuses to colors, enhancing visual distinction and readability. Color mappings can vary between "light" and "dark" ranges for aesthetic differentiation.
 
 <details>
   <summary>Click to expand/collapse the code</summary>
+  
 ```
 
 "scales": [
