@@ -62,6 +62,7 @@ Example:
 
 <details open>
   <summary>Click to expand/collapse the code</summary>
+  
 ```json
 {
   "name": "zoom",
