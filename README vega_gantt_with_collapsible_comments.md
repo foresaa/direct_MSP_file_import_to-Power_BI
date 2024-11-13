@@ -1740,6 +1740,8 @@ Dependency Arrows: Lines or paths connecting tasks to indicate dependencies, all
 
 ```
 
+</details>
+
 ## Axes Section
 
 Axes provide visual guides that help interpret the scales and data within the visualization.
