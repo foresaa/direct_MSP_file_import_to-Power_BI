@@ -34,12 +34,12 @@ The header section defines the overall structure and foundational aspects of the
 
 Signals provide a way to make visualizations interactive and responsive by defining dynamic variables whose values can change based on user interactions or computed values.
 
-Basic Signals : These include static values or initial states like chart height, tooltip visibility, or layout parameters. For example, setting a default height or showing tooltips by default.
-Zoom and Pan : Signals enable zooming and panning functionality through mouse events like wheel movements or dragging. Expressions control the scaling and movement along the x and y domains (time and task axes).
-Task Control Signals : Signals may control the visibility or collapsibility of tasks, phases, or dependencies. These enable user-driven exploration by expanding or collapsing groups or highlighting dependencies.
-Dynamic Calculation Signals: These include computed values, such as "dayBandwidth" (pixels per day on the x-axis), and are used to adapt visual layouts based on data scales, user inputs, or other dynamic triggers.
+Basic   Signals            : These include static values or initial states like chart height, tooltip visibility,                                    or layout parameters. For example,                         setting a default height or showing tooltips by default.
+Zoom    and Pan            : Signals enable zooming and panning functionality through mouse events like wheel movements or dragging. Expressions control the scaling and movement along the x and y domains (time and task axes).
+Task    Control Signals    : Signals may control the visibility or collapsibility of tasks,   phases,                                                or dependencies. These enable user-driven exploration by expanding or collapsing groups or highlighting dependencies.
+Dynamic Calculation Signals: These include computed values,                                   such as "dayBandwidth" (pixels per day on the x-axis), and are used to adapt visual layouts based on data scales, user inputs, or other dynamic triggers.
 
-<details open>
+<details closed>
   <summary>Click to expand/collapse the code</summary>
 
 ```
@@ -303,7 +303,7 @@ Formulas: Creating derived fields, such as task duration (calculated by subtract
 Lookups: Cross-referencing data sets for merging related information, like tasks with their phases.
 Units: Date-time values often need parsing to be interpreted as dates and used in computations. Many transformations rely on units of pixels for layout calculations or units of time (days, weeks) for temporal computations.
 
-<details open>
+<details closed>
   <summary>Click to expand/collapse the code</summary>
 
 ```
@@ -1624,7 +1624,7 @@ Milestone Symbols: Milestones are typically represented as symbols (e.g., diamon
 Phase Outlines: Marks that visually group related tasks within a phase. These may be outlined rectangles or paths that represent the entire span of a phase.
 Dependency Arrows: Lines or paths connecting tasks to indicate dependencies, allowing users to visualize task relationships.
 
-<details open>
+<details closed>
   <summary>Click to expand/collapse the code</summary>
 
 ```
@@ -1750,7 +1750,7 @@ X-Axis (Time): Displays dates or periods along the horizontal axis, with tick ma
 Y-Axis (Tasks/Phases): Provides a label or guide for each task or phase, displayed vertically. Y-axis labels may be hidden or simplified depending on the chart's interactivity or layout constraints.
 Grid Lines: Optionally displayed for guidance, typically aligned with ticks to help interpret data positions relative to the axes. \*/
 
-<details open>
+<details closed>
   <summary>Click to expand/collapse the code</summary>
 
 ```
@@ -1910,7 +1910,7 @@ X Scale (Time): Maps the start and end dates of tasks to horizontal positions in
 Y Scale (Band): Maps tasks or phases to vertical positions in a banded layout. This scale ensures that tasks are stacked in rows, with each task or phase occupying a specific vertical band.
 Color Scales : These map phases or statuses to colors, enhancing visual distinction and readability. Color mappings can vary between "light" and "dark" ranges for aesthetic differentiation.
 
-<details open>
+<details closed>
   <summary>Click to expand/collapse the code</summary>
   
 ```
@@ -1956,7 +1956,7 @@ View   Settings       : Controls properties like background color or border stro
 Font   and Text Styles: Defines default font families, sizes, and text alignments for labels, tooltips, and other text elements.
 Custom Styles         : Named styles that can be applied to groups of marks or specific elements for consistent appearance across the visualization.
 
-<details open>
+<details closed>
   <summary>Click to expand/collapse the code</summary>
 
 ```
