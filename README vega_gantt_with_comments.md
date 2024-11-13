@@ -1595,8 +1595,8 @@ Units: Date-time values often need parsing to be interpreted as dates and used i
 "height": {"signal": "bandwidth('y') - yPaddingInner \* 2"}
 }
 },
-
-Marks for Visual Representation
+```
+## Marks for Visual Representation
 
 Marks are the visual elements (e.g., rectangles, lines, symbols) that represent data in the Gantt chart.
 
