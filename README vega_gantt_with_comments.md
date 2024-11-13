@@ -1,13 +1,19 @@
-## HEADER
+![Andel Projects Limited](perpop.png)
 
-### Header and Schema Declaration
+# INTRO TO VEGA GANTT CHART BASED ON ORIGINAL BY DAVID BACCI
+
+## Introduction
+
+#### Davide Bacci created a much admired Gantt chart for deployment in Power BI via Deneb which Daniel Marsh-Patrick developed for wider use in creating Vega based visuals. There has been much interest in certain parts of the LinkedIn community [ including mine :)] with Davide's chart and a number of YouTube videos have emerged. The problem until now was that Vega, like, JSON did not support comments, however Daniel provided the functionality in Deneb V 2.0. This has allowed me, as part of my wider project, to provide a guide to how the gantt actually works.
+
+## Header Section
 
 The header section defines the overall structure and foundational aspects of the Vega Gantt chart visualization. It specifies that we are using the Vega v5 schema, which ensures compatibility with the syntax and features of that specific version of the Vega grammar.
 "$schema" : This indicates the version of the Vega specification being used (in this case, version 5). It acts as a validation reference to guide the renderer in interpreting the JSON correctly.
 "description": A textual summary of the visualization’s purpose or content. This is primarily for documentation and clarification purposes.
 "autosize" : Determines how the visualization should resize in response to container size changes or different layouts. The "pad" option ensures the padding around the chart content remains consistent while resizing.
 "width" : Specifies the total width of the visualization in pixels, which is critical for determining the available space for displaying elements like tasks and columns in the Gantt chart.
-"padding" : Defines the amount of padding around the visualization. This ensures that elements like axes and labels do not get clipped and there is some breathing room for visual elements.\_/
+"padding" : Defines the amount of padding around the visualization. This ensures that elements like axes and labels do not get clipped and there is some breathing room for visual elements.
 
 ```
 {
@@ -17,7 +23,7 @@ The header section defines the overall structure and foundational aspects of the
 "padding"    : {"left": 5, "right": 0, "top": 5, "bottom": 0},
 ```
 
-## Signals
+## Signals Section
 
 ### Signals for Interactivity and Layout Control
 
@@ -1709,7 +1715,7 @@ Dependency Arrows: Lines or paths connecting tasks to indicate dependencies, all
       },
 ```
 
-## Axes for Data Interpretation
+## Axes Section
 
 Axes provide visual guides that help interpret the scales and data within the visualization.
 
@@ -1860,7 +1866,7 @@ Grid Lines: Optionally displayed for guidance, typically aligned with ticks to h
 }
 ],```
 
-## Scales for Data Mapping
+## Scales Section
 
 Scales map data values to visual properties like position, size, or color. In a Gantt chart, scales play a pivotal role in converting data (e.g., dates, task categories) to screen positions.
 
@@ -1901,7 +1907,7 @@ Color Scales: These map phases or statuses to colors, enhancing visual distincti
 ],
 ```
 
-## Configuration for Styling and Appearance
+## Configuration Section
 
 The configuration section defines global styles and settings for elements within the chart.
 
