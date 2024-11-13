@@ -1908,7 +1908,7 @@ X Scale (Time): Maps the start and end dates of tasks to horizontal positions in
 Y Scale (Band): Maps tasks or phases to vertical positions in a banded layout. This scale ensures that tasks are stacked in rows, with each task or phase occupying a specific vertical band.
 Color Scales : These map phases or statuses to colors, enhancing visual distinction and readability. Color mappings can vary between "light" and "dark" ranges for aesthetic differentiation.
 
-<details>
+<details open>
   <summary>Click to expand/collapse the code</summary>
   
 ```
