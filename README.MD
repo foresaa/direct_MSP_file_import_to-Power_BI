@@ -24,9 +24,8 @@ This guide provides step-by-step instructions for importing task data from a Mic
 4. [Permissions and Security Considerations](#permissions-and-security-considerations)
 5. [Common Troubleshooting Steps](#common-troubleshooting-steps)
 6. [Final Notes](#final-notes)
-7. [Screenshots] (# screenshots)
+7. [Screenshots] (#screenshots)
 
----
 
 ## Prerequisites
 
@@ -423,7 +422,7 @@ in
   - Share this guide with team members and collaborate on any further enhancements or troubleshooting.
 
 ---
-## ScreenShots
+## Screenshots
 
 ### MS Project File
 
