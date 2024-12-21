@@ -1,6 +1,14 @@
 ![Andel Projects Limited](perpop.png)
 
+
+
 # Importing Microsoft Project Data into Power BI Using Python
+
+## ScreenShots
+
+### MS Project File
+
+![Andel Projects Limited](MS_Project_Screenshot_.png)
 
 ## Overview
 
