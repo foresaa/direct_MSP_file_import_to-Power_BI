@@ -428,4 +428,11 @@ in
 
 ![MS Project Screenshot](MS_Project_Screenshot.png)
 
+### PowerBI Script Parameter File
+
+![Power BI Parameter ](Project_Script_Parameter_Screenshot.png)
+
+
+
+---
 **Thank you for using this guide! If you have any questions or need further assistance, feel free to reach out.**
