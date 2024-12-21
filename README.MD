@@ -432,6 +432,9 @@ in
 
 ![Power BI Parameter ](Project_Script_Parameter_Screenshot.png)
 
+### PowerBI Script File
+
+![Power BI Parameter ](Project_Script_Screenshot.png)
 
 
 ---
