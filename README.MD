@@ -4,12 +4,6 @@
 
 # Importing Microsoft Project Data into Power BI Using Python
 
-## ScreenShots
-
-### MS Project File
-
-![MS Project Screenshot](MS_Project_Screenshot.png)
-
 ## Overview
 
 This guide provides step-by-step instructions for importing task data from a Microsoft Project (`.mpp`) file into Power BI using a Python script. The script leverages the COM automation interface provided by Microsoft Project to extract task details and presents them in a format that Power BI can consume.
@@ -30,7 +24,7 @@ This guide provides step-by-step instructions for importing task data from a Mic
 4. [Permissions and Security Considerations](#permissions-and-security-considerations)
 5. [Common Troubleshooting Steps](#common-troubleshooting-steps)
 6. [Final Notes](#final-notes)
-7. [Screenshots] (## Screenshots)
+7. [Screenshots] (# screenshots)
 
 ---
 
@@ -429,5 +423,10 @@ in
   - Share this guide with team members and collaborate on any further enhancements or troubleshooting.
 
 ---
+## ScreenShots
+
+### MS Project File
+
+![MS Project Screenshot](MS_Project_Screenshot.png)
 
 **Thank you for using this guide! If you have any questions or need further assistance, feel free to reach out.**
