@@ -8,7 +8,7 @@
 
 ### MS Project File
 
-![Andel Projects Limited](MS_Project_Screenshot_.png)
+![MS Project Screenshot](MS_Project_Screenshot.png)
 
 ## Overview
 
