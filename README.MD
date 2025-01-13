@@ -123,9 +123,10 @@ Before running this script, ensure you have the following:
 
 - **Set the `ProjectFile` Parameter**:
 
-  - At the top of the M code (before the `let` statement), define the `ProjectFile` parameter:
+  - , define the `ProjectFile` parameter:
 
-    ```m
+    Select Edit Query and then select the ProjectFile Parameter and set to your own 
+
     ProjectFile = "C:\Users\User\Downloads\YourProjectFile.mpp",
     ```
 
