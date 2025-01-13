@@ -123,10 +123,10 @@ Before running this script, ensure you have the following:
 
 - **Set the `ProjectFile` Parameter**:
 
-  - , define the `ProjectFile` parameter:
+  - define the `ProjectFile` parameter:
 
     Select Edit Query and then select the ProjectFile Parameter and set to your own 
-
+```
     ProjectFile = "C:\Users\User\Downloads\YourProjectFile.mpp",
     ```
 
