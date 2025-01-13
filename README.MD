@@ -126,9 +126,9 @@ Before running this script, ensure you have the following:
   - define the `ProjectFile` parameter:
 
     Select Edit Query and then select the ProjectFile Parameter and set to your own 
-```
+`
     ProjectFile = "C:\Users\User\Downloads\YourProjectFile.mpp",
-    ```
+    `
 
   - Replace `"C:\Users\User\Downloads\YourProjectFile.mpp"` with the actual path to your `.mpp` file.
 
